@@ -1,0 +1,73 @@
+#famous-quotes {
+    display: flex;
+    flex-direction: column;
+    background-color:#f7f7f7;
+    padding-top: 40px;
+    margin:auto
+}
+
+.authors {
+    display: flex;
+    padding-top:40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 65%;
+}
+
+.auth-txt {
+    text-align: center;
+    max-width: 65%;
+    
+}
+
+.auth-name {
+    margin-top: 40px;
+}
+
+
+.author-img{
+    width: 128px;
+    height: 128px;
+    border-radius: 64px;
+    background-image: url('../../img/avatar1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+    border: 4px solid #2196f3;
+}
+.author-img-1{
+    background-image: url('../../img/avatar1.jpg');
+}
+
+.author-img-2{
+    background-image: url('../../img/avatar2.jpg');
+}
+
+.author-img-3{
+    background-image: url('../../img/avatar3.jpg');
+}
+
+
+@media (max-width:800px) {
+    .authors {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:992px) {
+    .authors {
+        flex-direction: column;
+    }
+}
